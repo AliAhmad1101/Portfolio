@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Ali ... Visual Designer</title>
+<link rel="shortcut icon" href="a.jfif" type="image/x-icon">
+<link rel="stylesheet" href="design.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italianno&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-text"><span style="animation-delay:0s">Welcome</span></div>
+  <div class="loader-text"><span style="animation-delay:0.15s">to my World</span></div>
+  <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+</div>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" onclick="closeMobileMenu()">✕</button>
+  <a href="#hero" onclick="closeMobileMenu()">Home</a>
+  <a href="#about" onclick="closeMobileMenu()">About</a>
+  <a href="#skills" onclick="closeMobileMenu()">Skills</a>
+  <a href="#certificates" onclick="closeMobileMenu()">Certs</a>
+  <a href="#projects" onclick="closeMobileMenu()">Work</a>
+  <a href="#contact" onclick="closeMobileMenu()">Contact</a>
+</div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">Ali Ahmad Khan.</a>
+  <ul class="nav-links">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#certificates">Certs</a></li>
+    <li><a href="#projects">Work</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Contact</a>
+  <div class="hamburger" onclick="openMobileMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-left">
+    <p class="hero-tag">... Aspiring Developer, UI/UX Designer and Author.</p>
+    <h1 class="hero-title">Visual<br><em>Journey</em></h1>
+    <p class="hero-desc">Welcome to a visual journey that transcends time and space. Discover the artistry of moments captured in motion.</p>
+    <div class="hero-stats">
+      <div>
+        <div class="stat-val">+5</div>
+        <div class="stat-label">Projects executed and developed.</div>
+      </div>
+      <div>
+        <div class="stat-val">+1</div>
+        <div class="stat-label">Years crafting immersive digital experiences</div>
+      </div>
+    </div>
+    <div class="hero-actions">
+      <a href="#projects" class="btn-primary">View Work</a>
+      <a href="#contact" class="btn-outline">Hire Me</a>
+    </div>
+    <div class="hero-social">
+      <a href="https://instagram.com/the_history_buff._" class="social-pill">IG</a>
+      <a href="https://linkedin.com/in/ali-ahmad-khan-005415340" class="social-pill">LI</a>
+      <a href="https://github.com/AliAhmad1101" class="social-pill">GH</a>
+      <!-- <a href="#" class="social-pill">X</a> -->
+    </div>
+  </div>
+  <div class="hero-right">
+    <!-- 🖼️ REPLACE: Set your hero image URL as src below -->
+    <img src="pr1.png" alt="Designer portrait" class="hero-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+    <!-- <div class="hero-img-placeholder" style="display:none">
+      <div class="icon">📷</div>
+      <span>Replace with your photo</span>
+      <code style="font-size:10px;opacity:0.5">&lt;img src="YOUR_URL"&gt;</code>
+    </div>
+    <div class="hero-crosshair"></div> -->
+    <div class="hero-badge">Available for Work ✦</div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-strip">
+  <div class="marquee-inner">
+    <span>Visual Design</span><span class="dot">✦</span>
+    <span>UI/UX</span><span class="dot">✦</span>
+    <span>Web development</span><span class="dot">✦</span>
+    <span>Brand Identity</span><span class="dot">✦</span>
+    <span>Python</span><span class="dot">✦</span>
+    <span>Game design</span><span class="dot">✦</span>
+    <span>Research</span><span class="dot">✦</span>
+    <span>Visual Design</span><span class="dot">✦</span>
+    <span>UI/UX</span><span class="dot">✦</span>
+    <span>Web development</span><span class="dot">✦</span>
+    <span>Brand Identity</span><span class="dot">✦</span>
+    <span>Python</span><span class="dot">✦</span>
+    <span>Game design</span><span class="dot">✦</span>
+    <span>Research</span><span class="dot">✦</span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-img-wrap reveal">
+    <!-- 🖼️ REPLACE: Your about/profile photo -->
+    <img src="pr2.png" alt="About me" class="about-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+    <!-- <div class="about-img-placeholder" style="display:none">
+      <div>📷 Replace with your photo</div>
+    </div> -->
+    <div class="about-tag-float">01+<br><span style="font-size:14px;font-weight:400;opacity:0.6">years exp</span></div>
+  </div>
+  <div class="about-content reveal" style="transition-delay:0.15s">
+    <p class="section-tag">About Me</p>
+    <h2 class="section-title">Crafting Digital<br>Experiences</h2>
+    <p class="about-body">
+      I'm Ali Ahmad Khan ... an aspiring software developer, UI/UX designer and author based in India. I transform ideas into elegant, functional interfaces that feel alive. With a background spanning game development, branding, and interactive media, I bring a multi-disciplinary lens to every project.<br><br>
+      Currently leading FunLogic Studios ... an indie game development team pushing the boundaries of 3D interactive storytelling.
+    </p>
+    <div class="about-skills-quick">
+      <span class="skill-tag">Figma</span>
+      <span class="skill-tag">Python</span>
+      <span class="skill-tag">Godot 4</span>
+      <span class="skill-tag">UX Research</span>
+      <span class="skill-tag">UI Design</span>
+      <span class="skill-tag">Branding</span>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="skills-header reveal">
+    <div>
+      <p class="section-tag">Expertise</p>
+      <h2 class="section-title">Skills &<br>Capabilities</h2>
+    </div>
+    <p style="font-size:14px;color:var(--text-muted);max-width:280px;line-height:1.7">Every pixel has a purpose. Every interaction tells a story.</p>
+  </div>
+  <div class="skills-grid reveal">
+    <div class="skill-card">
+      <div class="skill-num">01</div>
+      <div class="skill-name">UI / UX Design</div>
+      <div class="skill-desc">Designing interfaces that balance beauty with usability ... from wireframes to high-fidelity prototypes.</div>
+      <div class="skill-bar-track"><div class="skill-bar-fill" data-width="92%"></div></div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-num">02</div>
+      <div class="skill-name">Visual Design</div>
+      <div class="skill-desc">Typography, color theory, layout systems ... crafting visual languages that communicate and captivate.</div>
+      <div class="skill-bar-track"><div class="skill-bar-fill" data-width="88%"></div></div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-num">03</div>
+      <div class="skill-name">Game Design & UI</div>
+      <div class="skill-desc">Building immersive game interfaces and HUD systems using Godot 4 and industry-standard pipelines.</div>
+      <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80%"></div></div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-num">04</div>
+      <div class="skill-name">Python</div>
+      <div class="skill-desc">Making practical projects and solving problems through efficient code.</div>
+      <div class="skill-bar-track"><div class="skill-bar-fill" data-width="65%"></div></div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-num">05</div>
+      <div class="skill-name">Software Development</div>
+      <div class="skill-desc">Making software solutions and scalable applications with readable code.</div>
+      <div class="skill-bar-track"><div class="skill-bar-fill" data-width="70%"></div></div>
+    </div>
+    <div class="skill-card">
+      <div class="skill-num">06</div>
+      <div class="skill-name">Brand Identity</div>
+      <div class="skill-desc">Developing cohesive brand systems ... logos, style guides, and visual strategies that stand out.</div>
+      <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85%"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATES -->
+<section id="certificates">
+  <div class="cert-header reveal">
+    <p class="section-tag">Credentials</p>
+    <h2 class="section-title" style="color:var(--white)">Certifications &<br>Achievements</h2>
+  </div>
+  <div class="cert-scroll-wrap">
+    <div class="cert-track" id="certTrack">
+      <!-- CERT CARDS — Edit titles/issuers/years as needed -->
+      <div class="cert-item" style="background-image: url(certs/cf1.png); background-position: center; background-size: contain;"></div>
+      <div class="cert-item" style="background-image: url(certs/cf2.png); background-position: center; background-size: contain;"></div>
+      <div class="cert-item" style="background-image: url(certs/cf3.png); background-position: center; background-size: contain;"></div>
+      <div class="cert-item" style="background-image: url(certs/cf4.png); background-position: center; background-size: contain;"></div>
+      <div class="cert-item" style="background-image: url(certs/cf5.png); background-position: center; background-size: contain;"></div>
+      <div class="cert-item" style="background-image: url(certs/cf6.png); background-position: center; background-size: contain;"></div>
+      <div class="cert-item" style="background-image: url(certs/Screenshot\ 2026-02-08\ 185424.png); background-position: center; background-size: contain;"></div>
+      <div class="cert-item" style="background-image: url(certs/cf7.png); background-position: center; background-size: contain;"></div>
+      <!-- DUPLICATES for infinite loop -->
+      <div class="cert-item" style="background-image: url(certs/cf1.png); background-position: center; background-size: contain;"></div>
+      <div class="cert-item" style="background-image: url(certs/cf2.png); background-position: center; background-size: contain;"></div>
+      <div class="cert-item" style="background-image: url(certs/cf3.png); background-position: center; background-size: contain;"></div>
+      <div class="cert-item" style="background-image: url(certs/cf4.png); background-position: center; background-size: contain;"></div>
+      <div class="cert-item" style="background-image: url(certs/cf5.png); background-position: center; background-size: contain;"></div>
+      <div class="cert-item" style="background-image: url(certs/cf6.png); background-position: center; background-size: contain;"></div>
+      <div class="cert-item" style="background-image: url(certs/Screenshot\ 2026-02-08\ 185424.png); background-position: center; background-size: contain;"></div>
+      <div class="cert-item" style="background-image: url(certs/cf7.png); background-position: center; background-size: contain;"></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="projects-header reveal">
+    <p class="section-tag">Selected Work</p>
+    <h2 class="section-title">Featured<br>Projects</h2>
+  </div>
+  <div class="carousel-wrap reveal" style="transition-delay:0.1s">
+    <div class="carousel-track" id="carouselTrack">
+
+      <!-- PROJECT 1 — Edit all fields -->
+      <div class="proj-slide">
+        <div class="proj-img-wrap">
+          <!-- 🖼️ REPLACE: Project 1 image -->
+          <img src="fgs.png" alt="Project 1" class="proj-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <!-- <div class="proj-img-placeholder" style="display:none"><div>📷</div><span>Replace with project image</span></div> -->
+        </div>
+        <div>
+          <div class="proj-num">01</div>
+          <h3 class="proj-title">FunLogic Studios Homepage.</h3>
+          <p class="proj-desc">The digital home of FunLogic Studios, showcasing creative tools, projects, and innovations.</p>
+          <div class="proj-stack">
+            <span class="stack-tag">HTML/CSS/JS</span>
+            <span class="stack-tag">Figma</span>
+            <span class="stack-tag">Spline</span>
+          </div>
+          <div class="proj-actions">
+            <a href="https://funlogicstudios.netlify.app" class="btn-primary" style="font-size:13px;padding:12px 24px">Visit Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 2 -->
+      <div class="proj-slide">
+        <div class="proj-img-wrap">
+          <!-- 🖼️ REPLACE: Project 2 image -->
+          <img src="fst.png" alt="Project 2" class="proj-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <!-- <div class="proj-img-placeholder" style="display:none"><div>📷</div><span>Replace with project image</span></div> -->
+        </div>
+        <div>
+          <div class="proj-num">02</div>
+          <h3 class="proj-title">Flux studio</h3>
+          <p class="proj-desc">A central hub to explore and download all software developed by FunLogic Studios.</p>
+          <div class="proj-stack">
+            <span class="stack-tag">HTML/CSS/JS</span>
+            <span class="stack-tag">Figma</span>
+            <span class="stack-tag">Three.js</span>
+          </div>
+          <div class="proj-actions">
+            <a href="https://studio-flux.netlify.app" class="btn-primary" style="font-size:13px;padding:12px 24px">Visit Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 3 -->
+      <div class="proj-slide">
+        <div class="proj-img-wrap">
+          <!-- 🖼️ REPLACE: Project 3 image -->
+          <img src="cf.png" alt="Project 3" class="proj-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <!-- <div class="proj-img-placeholder" style="display:none"><div>📷</div><span>Replace with project image</span></div> -->
+        </div>
+        <div>
+          <div class="proj-num">03</div>
+          <h3 class="proj-title">Code Flux</h3>
+          <p class="proj-desc">A focused coding environment designed for fast development, scripting, and creative programming workflows.</p>
+          <div class="proj-stack">
+            <span class="stack-tag">Figma</span>
+            <span class="stack-tag">Monaco Editor</span>
+            <span class="stack-tag">Tauri</span>
+          </div>
+          <div class="proj-actions">
+            <a href="https://studio-flux.netlify.app" class="btn-primary" style="font-size:13px;padding:12px 24px">Download</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 4 -->
+      <div class="proj-slide">
+        <div class="proj-img-wrap">
+          <!-- 🖼️ REPLACE: Project 4 image -->
+          <img src="df.png" alt="Project 4" class="proj-img"  onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <!-- <div class="proj-img-placeholder" style="display:none"><div>📷</div><span>Replace with project image</span></div> -->
+        </div>
+        <div>
+          <div class="proj-num">04</div>
+          <h3 class="proj-title">Design Flux</h3>
+          <p class="proj-desc">A lightweight design workspace built for quick UI concepts, creative layouts, and visual experimentation.</p>
+          <div class="proj-stack">
+            <span class="stack-tag">Figma</span>
+            <span class="stack-tag">Canvas API</span>
+            <span class="stack-tag">Tauri</span>
+          </div>
+          <div class="proj-actions">
+            <a href="https://studio-flux.netlify.app" class="btn-primary" style="font-size:13px;padding:12px 24px">Download</a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- PROJECT 5 -->
+      <div class="proj-slide">
+        <div class="proj-img-wrap">
+          <!-- 🖼️ REPLACE: Project 5 image -->
+          <img src="gfn.png" alt="Project 5" class="proj-img"  onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <!-- <div class="proj-img-placeholder" style="display:none"><div>📷</div><span>Replace with project image</span></div> -->
+        </div>
+        <div>
+          <div class="proj-num">05</div>
+          <h3 class="proj-title">Griffin CSS</h3>
+          <p class="proj-desc">A modern CSS framework crafted for building clean, responsive, and stylish web interfaces with ease.</p>
+          <div class="proj-stack"><span class="stack-tag">Figma</span><span class="stack-tag">HTML/CSS/JS</span><span class="stack-tag">UI/UX Research</span></div>
+          <div class="proj-actions"><a href="#" class="btn-primary" style="font-size:13px;padding:12px 24px">In Development</a></div>
+        </div>
+      </div>
+
+      <!-- PROJECT 6 -->
+      <div class="proj-slide">
+        <div class="proj-img-wrap">
+          <!-- 🖼️ REPLACE: Project 6 image -->
+          <img src="mc.png" alt="Project 6" class="proj-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <!-- <div class="proj-img-placeholder" style="display:none"><div>📷</div><span>Replace with project image</span></div> -->
+        </div>
+        <div>
+          <div class="proj-num">06</div>
+          <h3 class="proj-title">Movie Craft</h3>
+          <p class="proj-desc">A movie recommendation platform that helps users discover flims based on mood, genre, and interest.</p>
+          <div class="proj-stack"><span class="stack-tag">Figma</span><span class="stack-tag">Kaggle</span><span class="stack-tag">FrontEnd</span></div>
+          <div class="proj-actions"><a href="https://movie-craft.netlify.app" class="btn-primary" style="font-size:13px;padding:12px 24px">Visit Project</a></div>
+        </div>
+      </div>
+
+      <!-- PROJECT 7 -->
+      <div class="proj-slide">
+        <div class="proj-img-wrap">
+          <!-- 🖼️ REPLACE: Project 7 image -->
+          <img src="nf.png" alt="Project 7" class="proj-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <!-- <div class="proj-img-placeholder" style="display:none"><div>📷</div><span>Replace with project image</span></div> -->
+        </div>
+        <div>
+          <div class="proj-num">07</div>
+          <h3 class="proj-title">Neo Films</h3>
+          <p class="proj-desc">The official homepage of Neo Flims, featuring original short films, creative projects, and cinematic storytelling.</p>
+          <div class="proj-stack"><span class="stack-tag">Unsplash</span><span class="stack-tag">FrontEnd</span><span class="stack-tag"> Design</span></div>
+          <div class="proj-actions"><a href="https://neo-films.netlify.app" class="btn-primary" style="font-size:13px;padding:12px 24px">Visit Project</a></div>
+        </div>
+      </div>
+
+      <!-- PROJECT 8 -->
+      <!-- <div class="proj-slide">
+        <div class="proj-img-wrap"> -->
+          <!-- 🖼️ REPLACE: Project 8 image -->
+          <!-- <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&q=80" alt="Project 8" class="proj-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="proj-img-placeholder" style="display:none"><div>📷</div><span>Replace with project image</span></div>
+        </div>
+        <div>
+          <div class="proj-num">08</div>
+          <h3 class="proj-title">Retro Arcade Game UI</h3>
+          <p class="proj-desc">Pixel-art inspired HUD and menu system for a retro-style arcade game — neon palette, scanline aesthetics, and chiptune-synced animation triggers built in Godot 4.</p>
+          <div class="proj-stack"><span class="stack-tag">Godot 4</span><span class="stack-tag">Pixel Art</span><span class="stack-tag">Game UI</span></div>
+          <div class="proj-actions"><a href="#" class="btn-primary" style="font-size:13px;padding:12px 24px">Visit Project</a></div>
+        </div> -->
+      </div>
+
+    </div>
+    <div class="carousel-controls">
+      <button class="carousel-btn" id="prevBtn" aria-label="Previous project">←</button>
+      <button class="carousel-btn" id="nextBtn" aria-label="Next project">→</button>
+      <div class="carousel-dots" id="carouselDots"></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-grid">
+    <div class="reveal">
+      <p class="section-tag" style="color:rgba(255,255,255,0.4)">Get In Touch</p>
+      <h2 class="contact-title">Let's Work<br><em>Together</em></h2>
+      <div class="contact-links">
+        <!-- 🔗 REPLACE hrefs with your actual profile URLs -->
+        <a href="https://instagram.com/the_history_buff._" class="contact-link-btn" target="_blank">
+          <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          Instagram
+        </a>
+        <a href="https://linkedin.com/in/ali-ahmad-khan-005415340" class="contact-link-btn" target="_blank">
+          <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/AliAhmad1101" class="contact-link-btn" target="_blank">
+          <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          GitHub
+        </a>
+        <a href="mailto:ali.ahmad.khan2112@gmail.com" class="contact-link-btn">
+          <svg viewBox="0 0 24 24"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
+          Email Me
+        </a>
+      </div>
+    </div>
+    <div class="reveal" style="transition-delay:0.15s">
+      <!-- 🔗 REPLACE action URL with your Formspree URL: https://formspree.io/f/YOUR_ID -->
+      <form class="contact-form" id="contactForm" action="https://formspree.io/f/xeenwnne" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required/>
+        <input type="email" name="email" placeholder="Your Email" required/>
+        <input type="text" name="subject" placeholder="Subject"/>
+        <textarea name="message" placeholder="Tell me about your project..." required></textarea>
+        <button type="submit">Send Message →</button>
+        <p id="form-msg"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div>
+      <div class="footer-logo">AAK.<span>.</span></div>
+      <div class="footer-tagline">Aspiring Developer, UI/UX Designer, Author</div>
+    </div>
+    <div class="footer-links">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#certificates">Certs</a>
+      <a href="#projects">Work</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-copy">© 2026 Ali Ahmad Khan. All rights reserved.</p>
+    <p class="footer-credits">Designed & built with <span>♥</span> by Ali Ahmad Khan.</p>
+  </div>
+</footer>
+
+<script src="fun.js"></script>
+</body>
+</html>

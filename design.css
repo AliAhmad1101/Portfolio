@@ -131,7 +131,7 @@ body.loaded .hero-foot{opacity:.65;}
 .tilt-card img{width:100%; height:100%; object-fit:cover; transform:translateZ(40px) scale(1.06);}
 .tilt-card .glare{position:absolute; inset:0; background:radial-gradient(circle at var(--gx,50%) var(--gy,50%), rgba(255,255,255,.22), transparent 55%); mix-blend-mode:overlay; pointer-events:none;}
 .tilt-card .tag{position:absolute; left:1.1rem; bottom:1.1rem; transform:translateZ(60px); font-size:.66rem; letter-spacing:.1em; background:var(--accent); color:var(--black); padding:.32rem .65rem; font-weight:800;}
-.about-copy p{font-size:clamp(1rem,1.7vw,1.3rem); line-height:1.6; max-width:58ch; opacity:.92;}
+.about-copy p{font-size:clamp(.95rem,1.5vw,1.15rem); line-height:1.6; max-width:58ch; opacity:.92;}
 .soc-row{display:flex; gap:.8rem; margin-top:1.8rem;}
 .soc-badge{width:48px; height:48px; border:1px solid var(--line-i); display:flex; align-items:center; justify-content:center; font-weight:800; font-size:.72rem; letter-spacing:.02em; transition:all .3s;}
 .soc-badge:hover{background:var(--accent); color:var(--black); border-color:var(--accent); transform:translateY(-4px) rotate(-4deg);}

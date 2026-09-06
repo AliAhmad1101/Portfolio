@@ -30,7 +30,7 @@ body{
 #loader .l-mid,
 .p-card-inner h3,
 .modal-box h3,.stat .big-num,
-.c-grid p{
+.c-grid p,.ghost-num{
   font-family:var(--ff);
 }
 img{max-width:100%; display:block;}
